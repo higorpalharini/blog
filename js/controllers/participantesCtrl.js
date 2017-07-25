@@ -22,6 +22,7 @@ angular.module("participantes").controller("participantesCtrl", function($scope,
 	
 	$scope.adicionarParticipante = function(participanteForm){
 		participanteForm.data = new Date();
+		participanteForm.data.setHours(participanteForm.data.getHours() - 3);
 	
 		participanteAPI.saveParticipante(participanteForm).success(function (data){
 			limparForm();
