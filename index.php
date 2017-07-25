@@ -62,7 +62,7 @@
   				 <span ng-class="error" ng-show="formCadastroParticipante.email.$error.required">Email é obrigatório</span>
 			     <span ng-class="error" ng-show="formCadastroParticipante.email.$error.pattern"> Formato do e-mail é inválido</span>
 			</div>
-				<button class ="btn btn-block btn-primary" ng-click="adicionarParticipante(participantesForm)" ng-disabled style="color:#FFFFF0" ="formCadastroParticipante.$invalid">Quero me tornar um Growth Hacker</button>
+				<button class ="btn btn-block btn-primary" ng-click="adicionarParticipante(participantesForm)" ng-disabled="formCadastroParticipante.$invalid" style="color:#FFFFF0">Quero me tornar um Growth Hacker</button>
 			</form>
 
 		</div>
