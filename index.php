@@ -57,10 +57,10 @@
 				
 				<div ng-if="formCadastroParticipante.success" class="alert alert-success">
 					<strong style="color:#FF0000">Seu cadastro foi realizado sucesso</strong>
-				</div>
+				</div>   
 
 				<input class="form-control" type="text" name="nome" ng-model="participantesForm.nome" placeholder="Nome Completo" ng-required="true" />
-				<input class="form-control" type="text" name="email" ng-model="participantesForm.email" placeholder="Email" ng-required="true" ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}(\.[a-z.]{2})?$/" />
+				<input class="form-control" type="text" name="email" ng-model="participantesForm.email" placeholder="Email" ng-required="true" ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}(\.[a-z.]{2})?$/"/>
 				<div ng-messages="formCadastroParticipante.nome.$error">
 				<div ng-message="required" ng-show="formCadastroParticipante.nome.$dirty" class="alert alert-danger">
 					Preencha o nome completo!
@@ -75,6 +75,8 @@
 			     <span ng-class="error" ng-show="formCadastroParticipante.email.$error.pattern"> Formato do e-mail é inválido</span>
 			</div>
 				<button class ="btn btn-block btn-primary" ng-click="adicionarParticipante(participantesForm)" ng-disabled="formCadastroParticipante.$invalid" style="color:#FFFFF0">Quero me tornar um Growth Hacker</button>
+
+				<a href="blogpost.php">OPEN BLOG</a>
 			</form>
 		</div>
 	</body>
