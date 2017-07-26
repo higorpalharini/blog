@@ -11,7 +11,11 @@
 		<script src="js/controllers/participantesCtrl.js"></script>
 		<script src="js/services/participanteAPIService.js"></script>
 		<script src="js/value/configValue.js"></script>
-		
+				
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
+		<!-- My css -->
+		<link rel="stylesheet" type="text/css" href="css/app.css">
 
 		<script>
 			 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,14 +26,10 @@
 			  ga('send', 'pageview');
 		</script>       
 
-		<!-- Bootstrap -->
-		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
-		<!-- My css -->
-		<link rel="stylesheet" type="text/css" href="css/app.css">
 	</head>
 	
 	<body ng-controller="participantesCtrl">
-	
+
 		<div class ="jumbotron center" style="text-align: center; background-color:#30353B !important; ">
 
 			<div style="width: 100%; height: 100%">
