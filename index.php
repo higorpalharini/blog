@@ -31,7 +31,7 @@
 	<body ng-controller="participantesCtrl">
 		<div class ="jumbotron center" style="text-align: center; background-color:#30353B !important; ">
 
-			<div style="width: 100%; height: 100%">
+			<div style="width: 100%>
 				<img src="./imagens/portal.png" alt="Banner" class="img-responsive center">
 
 				<h2 ng-bind="app"></h2>
