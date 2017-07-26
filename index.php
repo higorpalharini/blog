@@ -56,7 +56,7 @@
 				</p>
 				
 				<div ng-if="formCadastroParticipante.success" class="alert alert-success">
-					<strong style="color:#FF0000">Seu cadastro foi realizado sucesso!</strong>
+					<strong style="color:#FF0000">Seu cadastro foi realizado sucesso</strong>
 				</div>
 
 				<input class="form-control" type="text" name="nome" ng-model="participantesForm.nome" placeholder="Nome Completo" ng-required="true" />
