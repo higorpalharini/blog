@@ -20,7 +20,7 @@
 		    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 			  ga('create', 'UA-103200040-1', 'auto');
 			  ga('send', 'pageview');
-		</script>    
+		</script>       
 
 		<!-- Bootstrap -->
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
