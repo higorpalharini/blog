@@ -50,7 +50,7 @@
 						Marketing de Conteúdo</p>				
 			</div>
 			
-			<form name="formCadastroParticipante" class="margin center" style="width: 40%;">
+			<form name="formCadastroParticipante" class="margin center" style="width: 40%">
 				<p style="font-size: 14px; padding-top: 8px;color:#FFFFF0"><b>Receba Semanalmente os melhores conteúdos de Growth
 				Hacking por e-mail e aprenda  como esse novo mindset está revolucionando o marketing tradicional.</b>
 				</p>
