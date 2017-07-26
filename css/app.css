@@ -1,0 +1,13 @@
+.negrito{
+	font-weight: bold;
+}
+.center {
+	 float: none;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.margin {
+	float:none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
