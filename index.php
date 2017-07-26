@@ -16,6 +16,16 @@
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
 		<!-- My css -->
 		<link rel="stylesheet" type="text/css" href="css/app.css">
+
+		<script>
+			 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			  ga('create', 'UA-103200040-1', 'auto');
+			  ga('send', 'pageview');
+		</script> 
+
 	</head>
 	
 	<body ng-controller="participantesCtrl">
@@ -51,7 +61,7 @@
 				<input class="form-control" type="text" name="email" ng-model="participantesForm.email" placeholder="Email" ng-required="true" ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}(\.[a-z.]{2})?$/" />
 				<div ng-messages="formCadastroParticipante.nome.$error">
 				<div ng-message="required" ng-show="formCadastroParticipante.nome.$dirty" class="alert alert-danger">
-					Preencha o nome completo
+					Preencha o nome completo!
 				</div>
 			</div>
 			
