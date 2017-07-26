@@ -18,27 +18,29 @@
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 
 		<script>
-			 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			  ga('create', 'UA-103200040-1', 'auto');
-			  ga('send', 'pageview');
-		</script> 
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+				  ga('create', 'UA-103200040-1', 'auto');
+				  ga('send', 'pageview');
+
+		</script>
 
 	</head>
 	
 	<body ng-controller="participantesCtrl">
 		<div class ="jumbotron center" style="text-align: center; background-color:#30353B !important; ">
 
-			<div style="width: 100%;height: 100%">
+			<div style="width: 100%">
 				<img src="./imagens/portal.png" alt="Banner" class="img-responsive center">
 
 				<h2 ng-bind="app"></h2>
 
 				<p style="font-size: 13px; padding-top: 5px; color:#FFFFF0"><i>"O <b>Facebook</b> chegou a marca de 1,7 bilhões de usuários 		  ativos e boa parte desse sucesso se
 						deve à mentalidade de growth hacking que a empresa possui desde o seu primeiro dia.</i>” Marketing
-						de ConteúdoAUISBUIASB"</p>
+						de Conteúdo"</p>
 
 				<p style="font-size: 13px; padding-top: 5px; color:#FFFFF0"><i>"<b>Airbnb</b> usou táticas de growth hacking 
 					    para crescer mais de 300% em novos usuários e aluguéis por dia.”</i> Vida de Startup</p>
@@ -73,9 +75,7 @@
 			     <span ng-class="error" ng-show="formCadastroParticipante.email.$error.pattern"> Formato do e-mail é inválido</span>
 			</div>
 				<button class ="btn btn-block btn-primary" ng-click="adicionarParticipante(participantesForm)" ng-disabled="formCadastroParticipante.$invalid" style="color:#FFFFF0">Quero me tornar um Growth Hacker</button>
-
 			</form>
-
 		</div>
 	</body>
-</html>
+</html> 
