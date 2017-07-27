@@ -28,6 +28,14 @@ angular.module("participantes").controller("participantesCtrl", function($scope,
 			limparForm();
 			//$scope.participantes.push(data);
 			$scope.formCadastroParticipante.success = true;
+
+			//redirect after 2 sec
+			setTimeout(function(){
+				var pathname = window.location.pathname;
+				var rootPath = pathname.substring(0, pathname.lastIndexOf("/"));
+				window.location.href = rootPath + '/blogpost.php';
+			 }, 2000);
+
 		});
 	};
 
