@@ -62,9 +62,9 @@
 				<input class="form-control" type="text" name="nome" ng-model="participantesForm.nome" placeholder="Nome Completo" ng-required="true" />
 				<input class="form-control" type="text" name="email" ng-model="participantesForm.email" placeholder="Email" ng-required="true" ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}(\.[a-z.]{2})?$/"/>
 				<div ng-messages="formCadastroParticipante.nome.$error">
-				<div ng-message="required" ng-show="formCadastroParticipante.nome.$dirty" class="alert alert-danger">
+				<!--<div ng-message="required" ng-show="formCadastroParticipante.nome.$dirty" class="alert alert-danger">
 					Preencha o nome completo!
-				</div>
+				</div> -->
 			</div>
 			
 			<div ng-show="formCadastroParticipante.email.$error.required && formCadastroParticipante.email.$dirty" class="alert alert-danger">

@@ -14,6 +14,20 @@
 			<script src="js/services/participanteAPIService.js"></script>
 			<script src="js/value/configValue.js"></script>
 			
+			<!-- Última versão CSS compilada e minificada -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<!-- Tema opcional -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+			<!-- Última versão JavaScript compilada e minificada -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			
+			<link rel="stylesheet" type="text/css" href="index.css">
+			
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		
+
 			<!-- Bootstrap -->
 			<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
 			<!-- My css -->
@@ -53,19 +67,45 @@
 
 			<br></br><br></br>
 
+			
+		<div class="col-md-8 growthpost" align="left">
+			<h3 class="textTitle" align="center">No Growth Hacking a definição de metas é muito importante:</h3>
+				<ul>
+					<li>
+						Principais objetivos a serem alcançados
+					</li>
+					<li>
+						Dados que devem ser analisados, quantidade e qualidade
+					</li>
+					<li>
+						Modelo de alavancagem (pesquisa com audiência pra descobrir possíveis brechas que não estão sendo aproveitadas)
+					</li>
+				</ul>
+		</div>
 
-			<p style="font-size: 20px; padding-top: 10px">
-				No Growth Hacking a definição de metas é muito importante:
-			 </p>
-			   	<p style="font-size: 20px; padding-top: 3px">
-					- Principais objetivos a serem alcançados <br />
-					- Dados que devem ser analisados, quantidade e qualidade<br />
-					- Modelo de alavancagem (pesquisa com audiência pra descobrir possíveis brechas que não estão sendo aproveitadas)
-				</p>
+			<div class="row">
+				<div class="col-md-8 growthpost" align="left">
+					<img src="./imagens/CICLO.png" class="img-responsive growthpostImg"/>
+					<p class="textTitle" align="center">Ciclo de vida do Growth Hacking:</p>
+					<ol>
+						<li>Brainstorming - Com base nos dados obtidos, sugestões são apresentadas com foco no crescimento. O objetivo é sair dessa etapa com um "estoque de ideias";</li>
+
+						<li>Estabelecimento de prioridades - Nem todas as ideias serão colocadas em prática; nesta etapa são definidas quais serão experimentadas e quais suas prioridades;</li>
+
+						<li>Documentação MUITO IMPORTANTE - Todos os experimentos devem ser documentados para comparação e com objetivo de saber quais foram os mais bem sucedidos.</li>
+
+						<li>MVT (Teste Mínimo Viável) - Usado pra testar uma hipótese em Growth Hacking, caso obtenha sucesso, passa para o MVP.</li>
+
+						<li>Melhoria Contínua - Ao final de todo ciclo de Growth Hacking, a ideia é atuar com melhoria contínua, sempre pensando em obter crescimento.</li>
+					</ol>				
+				</div>
+			</div>
+						
+			<!--
 			<p style="font-size: 20px; padding-top: 10px">
 				<b>Ciclo de vida do Growth Hacking:</b> 
 
-			</p>
+			</p> 
 
 			<div class ="jumbotron center" style="text-align: center; background-color:#FFFFFF !important; ">
 				<div style="width: 100%;">
@@ -97,7 +137,7 @@
 						05 - Melhoria Contínua - Ao final de todo ciclo de Growth Hacking, a ideia é atuar<br /> com melhoria contínua, sempre pensando em obter crescimento.
 					</p>
 				</div>	
-
+				-->
 				<div>
 					<h1 style="font-size: 18px; padding-top: 3px">
 						<br //><b>Táticas de Growth Hacking para ajudar seu site a crescer!</b><br></br>
@@ -223,10 +263,18 @@
 					</h1>
 				</div>
 				<br /><br /><br /><br /><br /><br /><br /><br /><br />
-				<p>&copy; 2017 JOVENS TITÃS</p>
 
+				<div class="row footer">
+					<div class=" col-md-10 col-center-block growthFooter">
+						<div class="row">
+							<p style="font-size: 15px; padding-top: 3px">PORTAL GROWTH &copy; TODOS OS DIREITOS RESERVADOS</p>
+						</div>
+						<a href="https://www.facebook.com/portalgrowth/">
+							<img src="./imagens/facebook.png" width="40" height="20" alt="Banner" class="img-responsive center">
+						</a>
+					</div>
+				</div>
 			</div>
-
 		</div>		
 	</body>
 </html>
